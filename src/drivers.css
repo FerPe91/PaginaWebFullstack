@@ -1,0 +1,269 @@
+*{
+font-family: Formula1 Display Regular;
+margin:0;
+padding: 0;
+
+}
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37)), url(https://www.f1-fansite.com/wp-content/uploads/2022/03/2022-Bahrain-Grand-Prix-Sunday-7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width:auto;
+    border-bottom: 10px solid red;
+}
+
+.img-encabezado{
+    height: 20vw;
+    background-size: 100%;
+}
+
+h1{
+    color:white;
+    font-size:5vw;
+    background-color: rgba(255, 0, 0, 0.712);
+    align-items: center;
+    border-radius: 50px;
+    padding: 1%;
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: auto;
+    border-bottom: solid rgba(255, 0, 0, 0.712); 15px;
+}
+
+
+.itemsNav{
+    font-size:larger;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.712);
+    margin: 0% 0% 0% 0%;
+    padding: 1.3%;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+ .itemsNav:first-child{ 
+    border-radius: 0px 0px 0px 10px;
+}
+
+.itemsNav:hover{
+    transition: 0.5s;
+    color: red;
+    background-color: black;
+}
+
+
+
+.contenedorEquipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.logoAuto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoEquipo{
+    display: flex;
+    height: 10vw;
+}
+.logoEquipo:last-child:hover{
+    transition: 0.5s;
+    height:15vw;
+   
+}
+
+.contenedorEquipos>div{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+}
+
+
+.equipo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.pilotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    width:30%;
+}
+
+.imgPiloto{
+    display: flex;
+    justify-content: center;
+    height:20vw;
+}
+
+.stats{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    background-color: #0000008e;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    height:20vw;
+    width: inherit;
+}
+
+
+.redBull{
+    background-image: url(https://cdn.wallpapersafari.com/88/12/TK3xg1.jpg);    
+}
+.mercedes{
+    background-image: url(https://www.amplimark.com/wp-content/uploads/2015/08/Mercedes-AMG-F1-Team.jpg);    
+}
+.ferrari{
+    background-image: url(https://cdn.motor1.com/images/mgl/jxOky/s1/2010-205697-ferrari-gestione-sportiva-new-logo-08-07-20101.jpg);    
+}
+.mcLaren{
+    background-image: url(https://soymotor.com/sites/default/files/styles/mega/public/imagenes/noticia/mclaren-logo-brasil-gp-soymotor.jpg?itok=ukUsnrmF);
+}
+
+.alphaT{
+    background-color: white;
+}
+
+.alpine{
+    background-color: rgb(248, 153, 169);
+}
+
+
+.aston{
+    background-color: rgb(53, 61, 56);
+}
+
+.alfaRomeo{
+    background-color: rgb(99, 8, 8);
+}
+
+
+.williams{
+    background-color: lightblue
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-top: solid 10px red;
+    padding-top: 5%;
+}
+div ul li a{
+    color: white;
+   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+li{
+    padding: 30px;
+    list-style-type:none;
+    
+}
+
+
+.f1logo{
+    margin-top: 3%;
+    height: 135px;
+    width: 200px;
+    
+    
+}
+
+.imgRedesSociales{
+    height: 5vh;
+}
+
+.imgRedesSociales:hover{
+    transition: 0.5s;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.footerLogos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fiaLogo{
+    height: 135px;
+    width: 200px;
+}
+
+
+.aramcoLogo{
+    height: 35px;
+    width: 175px;
+}
+
+
+.pirelliLogo{
+    height: 35px;
+    width: 165px;
+}
+
+.derechos{
+    color:white;
+    padding: 1%;
+}
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    background-size:auto;
+    width: 35px;
+    border-radius: 50px;
+}
